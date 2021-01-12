@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+      <div class="col col-md-4"></div>
+      
+      <div class="col col-md-4" style="margin-top: 150px;padding:20px;width:100%;border: 2px solid black;border-radius: 5px;">
+        <form class="example-form">
+            <div style="display: flex;justify-content: center;">
+                <h2>Login Form</h2>
+            </div>
+            <div style="display: flex;justify-content: center;">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Email id</mat-label>
+                    <input matInput placeholder="Enter email Id" value="" >
+                  </mat-form-field>
+            </div>
+            <div style="display: flex;justify-content: center;">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Password</mat-label>
+                    <input matInput placeholder="Enter password">
+                  </mat-form-field>
+            </div>
+
+            <div style="display: flex;justify-content: center;margin-top: 20px;">
+                <button mat-raised-button style="background-color: green;color: white;;width: 50%" (click)="loginDashboard()">Login</button>
+            </div>
+          </form>
+      </div>
+      <div class="col col-md-4"></div>
+        
+    </div>
+  </div>
